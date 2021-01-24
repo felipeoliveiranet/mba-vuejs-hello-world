@@ -1,0 +1,26 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - npm i npm@latest -g
+      - echo List init build files
+      - ls .
+  pre_build:
+    commands:
+      - echo Installing
+      - npm install
+      - echo List pre build installed files
+      - ls .
+  build:
+    commands:
+      - echo Building
+      - npm run build
+      - echo List build files
+      - ls .
+  post_build:
+    commands:
+      - echo List ready to deploy files
+      - ls  ./dist
+      - echo Sync files to S3
+      - aws s3 sync ./dist $S3_BUCKET
