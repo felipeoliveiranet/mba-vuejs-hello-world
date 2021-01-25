@@ -4,7 +4,10 @@
 ![](https://img.shields.io/badge/language-JavaScript-yellow) ![](https://img.shields.io/badge/front_end-Vue.js-42b983) ![](https://img.shields.io/badge/back_end-NodeJS-green) 
 #
 ## URL (preview)
-http://my-bucket-vuejs-v1.s3-website-us-east-1.amazonaws.com/
+
+~~http&#65279;://my-bucket-vuejs-v1&#46;s3-website-us-east-1&#46;amazonaws&#46;com/~~
+
+https://d23mqoilvwuvoa.cloudfront.net/
 
 #
 ## Project setup
